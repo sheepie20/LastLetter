@@ -25,15 +25,19 @@ A fun word chain game bot for Discord where users have to respond with words tha
 ## Setup
 
 1. Clone this repository
+```bash
+git clone https://github.com/sheepie20/LastLetter
+cd LastLetter
+```
 2. Create a virtual environment:
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+.venv\Scripts\activate  # On Linux/MacOS: source .venv/bin/activate
 ```
 
 3. Install required packages:
 ```bash
-pip install discord.py sqlalchemy aiosqlite aiohttp
+pip install -r requirements.txt
 ```
 
 4. Create a `.env` file with your Discord bot token:
